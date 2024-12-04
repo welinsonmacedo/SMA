@@ -1,6 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBarMain from "./components/NavBarMain/NavBarMain"; // Componente de navegação
+import NavBarMain from "./components/NavBarMain"; // Componente de navegação
 import Home from "./pages/Home/Home";
 import DriversRegistration from "./Components/Registers/Drivers Registration/DriversRegistration";
 import LacingFine from "./Components/Lacing/Lacing Fine/LacingFine";
