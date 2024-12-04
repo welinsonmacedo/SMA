@@ -17,10 +17,10 @@ function AppRoutes() {
       <NavBarMain />
    
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/list" element={<MultaList/>} />
-        <Route path="/lacingfine" element={<LacingFine />} />
-        <Route path="/lacingfineaut" element={<LacingFineAut />} />
+        <Route path="/lacingfine" element={<LacingFine/>} />
+        <Route path="/lacingfineaut" element={<LacingFineAut/>} />
         <Route path="/registerdrivers" element={<DriversRegistration/>} />
         <Route path="/registercostcenter" element={<RegisterCostCenter/>} />
         <Route path="/drivesmanagement" element={<DriversManagement/>} />
